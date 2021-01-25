@@ -4,9 +4,8 @@ This project injects fake library DB and lets you practice querying with MongoDB
 ## Getting started:  
 1. `git clone` this repo
 2. Use `cd` to the repo folder and run `npm install`
-3. Make sure MongoDB is running in the background (if you can't remember how, see the explanation at the bottom)  
-4. Run `npm run populate` to insert the fake data to your MongoDB.
-5. Open Compass and see the new data!
+3. Run `npm run populate` to insert the fake data to your MongoDB.
+4. Open Compass and see the new data!
 
 ## Your tasks:
 Filter the data according to the following criterias.
@@ -23,11 +22,3 @@ Use the official documentation:
 8. Posts that were created after July 1st, 2018 (138 documents)
 9. How many posts got between 100 to 200 likes? (49 documents)
 10. How many comments got the post with the greatest amount of likes?
-
----  
-
-### How to run MongoDB:  
-- On Mac: just run `mongod`  
-- On Windows:  
-Run `cd C:\Program Files\MongoDB\Server\4.0\bin`  
-Then run `mongod`
